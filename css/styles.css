@@ -1,0 +1,103 @@
+:root {
+  --naranja: #e28525;
+  --azulmenta: #016972;
+  --verde: #00403f;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: white;
+}
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 72%;
+  line-height: 25px;
+}
+Body {
+  font-size: 16px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.container {
+  display: flex;
+  text-align: center;
+  background-color: silver;
+  width: 70rem;
+  margin: 0 auto 0 auto;
+
+  border-radius: 0.75rem;
+}
+h2 {
+  text-align: left;
+  margin-left: 4rem;
+}
+p {
+  text-align: left;
+  margin: auto 4rem 4rem 4rem;
+}
+img {
+  margin-left: 4rem;
+  margin-top: 4rem;
+  width: 20%;
+}
+.sedans {
+  background-color: var(--naranja);
+  display: grid;
+  margin: 0 auto 0 auto;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  padding-bottom: 5rem;
+}
+.suvs {
+  background-color: var(--azulmenta);
+  display: grid;
+  margin: 0 auto 0 auto;
+  border-radius: 0;
+  padding-bottom: 5rem;
+}
+.lux {
+  background-color: var(--verde);
+  display: grid;
+  margin: 0 auto 0 auto;
+  border-top-left-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+  padding-bottom: 5rem;
+}
+footer {
+  color: black;
+}
+.button {
+  border: solid white;
+  text-align: left;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: transparent;
+  border-radius: 5rem;
+  color: white;
+  transition: 0.4s;
+  cursor: pointer;
+  display: inline-block;
+  border-color: white;
+  border-width: 2px;
+  margin-left: 4rem;
+}
+.sedans.button:hover {
+  color: var(--naranja);
+  opacity: 1;
+  background-color: white;
+}
+.suvs.button:hover {
+  color: var(--azulmenta);
+  opacity: 1;
+  background-color: white;
+}
+.lux.button:hover {
+  color: var(--verde);
+  opacity: 1;
+  background-color: white;
+}
